@@ -2,35 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Xbox 360 Dashboard</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="sidebar">
-    <h1 class="logo">Xbox 360</h1>
-    <nav>
-      <ul>
-        <li class="active">Home</li>
-        <li>Games</li>
-        <li>Media</li>
-        <li>Store</li>
-        <li>Settings</li>
-      </ul>
-    </nav>
+  <div class="dashboard">
+    <div class="menu">
+      <div class="tab active">Home</div>
+      <div class="tab">Games</div>
+      <div class="tab">Music</div>
+      <div class="tab">Videos</div>
+      <div class="tab">Settings</div>
+    </div>
+
+    <div class="tiles">
+      <div class="tile green large">Start</div>
+      <div class="tile darkgreen">My Xbox</div>
+      <div class="tile orange">Friends</div>
+      <div class="tile red">Music</div>
+      <div class="tile blue">Marketplace</div>
+      <div class="tile gray">System</div>
+    </div>
   </div>
-
-  <main class="dashboard">
-    <section class="tile large green">My Games</section>
-    <section class="tile medium blue">Netflix</section>
-    <section class="tile medium orange">YouTube</section>
-    <section class="tile small red">Settings</section>
-    <section class="tile small gray">Profile</section>
-    <section class="tile medium lime">Xbox Live</section>
-    <section class="tile large teal">Game Library</section>
-  </main>
-
-  <script src="script.js"></script>
 </body>
 </html>
-
