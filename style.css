@@ -1,10 +1,21 @@
 /* line 7, ../styles/_normalize.sass */
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
   display: block;
 }
 
 /* line 11, ../styles/_normalize.sass */
-audio, canvas, video {
+audio,
+canvas,
+video {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -34,7 +45,11 @@ body {
 }
 
 /* line 46, ../styles/_normalize.sass */
-body, button, input, select, textarea {
+body,
+button,
+input,
+select,
+textarea {
   font-family: sans-serif;
 }
 
@@ -43,7 +58,8 @@ a:focus {
   outline: thin dotted;
 }
 /* line 59, ../styles/_normalize.sass */
-a:hover, a:active {
+a:hover,
+a:active {
   outline: 0;
 }
 
@@ -58,7 +74,8 @@ abbr[title] {
 }
 
 /* line 74, ../styles/_normalize.sass */
-b, strong {
+b,
+strong {
   font-weight: bold;
 }
 
@@ -79,7 +96,10 @@ mark {
 }
 
 /* line 91, ../styles/_normalize.sass */
-pre, code, kbd, samp {
+pre,
+code,
+kbd,
+samp {
   font-family: monospace, serif;
   _font-family: "Courier New", monospace;
   font-size: 1em;
@@ -97,7 +117,8 @@ q {
   quotes: none;
 }
 /* line 107, ../styles/_normalize.sass */
-q:before, q:after {
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -108,7 +129,8 @@ small {
 }
 
 /* line 116, ../styles/_normalize.sass */
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -126,7 +148,8 @@ sub {
 }
 
 /* line 131, ../styles/_normalize.sass */
-ul, ol {
+ul,
+ol {
   margin-left: 0;
   padding: 0 0 0 40px;
 }
@@ -137,7 +160,8 @@ dd {
 }
 
 /* line 139, ../styles/_normalize.sass */
-nav ul, nav ol {
+nav ul,
+nav ol {
   list-style: none;
   list-style-image: none;
 }
@@ -177,7 +201,10 @@ legend {
 }
 
 /* line 185, ../styles/_normalize.sass */
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
@@ -185,19 +212,24 @@ button, input, select, textarea {
 }
 
 /* line 197, ../styles/_normalize.sass */
-button, input {
+button,
+input {
   line-height: normal;
 }
 
 /* line 200, ../styles/_normalize.sass */
-button, input[type='button'], input[type='reset'], input[type='submit'] {
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
   *overflow: visible;
 }
 
 /* line 212, ../styles/_normalize.sass */
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
@@ -214,7 +246,8 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /* line 234, ../styles/_normalize.sass */
-button::-moz-focus-inner, input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
@@ -271,7 +304,8 @@ table {
   width: 1px;
 }
 /* line 40, ../styles/_helpers.sass */
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
@@ -320,7 +354,9 @@ table {
 /* For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats. */
 /* line 6, ../styles/style.sass */
-html, body, #dashboardwrapper {
+html,
+body,
+#dashboardwrapper {
   width: 100%;
   height: 100%;
   display: block;
@@ -328,7 +364,8 @@ html, body, #dashboardwrapper {
 }
 
 /* line 12, ../styles/style.sass */
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -337,12 +374,110 @@ ul, ol {
   background-color: #d5d8d9;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFD5D8D9', endColorstr='#FFEFF1F1');
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d5d8d9), color-stop(12%, #d5d8d9), color-stop(35%, #bec0c0), color-stop(42%, #babcbc), color-stop(53%, #b8bbbb), color-stop(57%, #c5c6c6), color-stop(62%, #dcdddd), color-stop(65%, #e1e1e1), color-stop(68%, #dddede), color-stop(73%, #d4d6d6), color-stop(81%, #c2c3c3), color-stop(84%, #c0c2c2), color-stop(88%, #c5c7c7), color-stop(100%, #cacbcb));
-  background-image: -webkit-linear-gradient(top, #d5d8d9 0%, #d5d8d9 12%, #bec0c0 35%, #babcbc 42%, #b8bbbb 53%, #c5c6c6 57%, #dcdddd 62%, #e1e1e1 65%, #dddede 68%, #d4d6d6 73%, #c2c3c3 81%, #c0c2c2 84%, #c5c7c7 88%, #cacbcb 100%);
-  background-image: -moz-linear-gradient(top, #d5d8d9 0%, #d5d8d9 12%, #bec0c0 35%, #babcbc 42%, #b8bbbb 53%, #c5c6c6 57%, #dcdddd 62%, #e1e1e1 65%, #dddede 68%, #d4d6d6 73%, #c2c3c3 81%, #c0c2c2 84%, #c5c7c7 88%, #cacbcb 100%);
-  background-image: -o-linear-gradient(top, #d5d8d9 0%, #d5d8d9 12%, #bec0c0 35%, #babcbc 42%, #b8bbbb 53%, #c5c6c6 57%, #dcdddd 62%, #e1e1e1 65%, #dddede 68%, #d4d6d6 73%, #c2c3c3 81%, #c0c2c2 84%, #c5c7c7 88%, #cacbcb 100%);
-  background-image: -ms-linear-gradient(top, #d5d8d9 0%, #d5d8d9 12%, #bec0c0 35%, #babcbc 42%, #b8bbbb 53%, #c5c6c6 57%, #dcdddd 62%, #e1e1e1 65%, #dddede 68%, #d4d6d6 73%, #c2c3c3 81%, #c0c2c2 84%, #c5c7c7 88%, #cacbcb 100%);
-  background-image: linear-gradient(top, #d5d8d9 0%, #d5d8d9 12%, #bec0c0 35%, #babcbc 42%, #b8bbbb 53%, #c5c6c6 57%, #dcdddd 62%, #e1e1e1 65%, #dddede 68%, #d4d6d6 73%, #c2c3c3 81%, #c0c2c2 84%, #c5c7c7 88%, #cacbcb 100%);
+  background-image: -webkit-gradient(
+    linear,
+    50% 0%,
+    50% 100%,
+    color-stop(0%, #d5d8d9),
+    color-stop(12%, #d5d8d9),
+    color-stop(35%, #bec0c0),
+    color-stop(42%, #babcbc),
+    color-stop(53%, #b8bbbb),
+    color-stop(57%, #c5c6c6),
+    color-stop(62%, #dcdddd),
+    color-stop(65%, #e1e1e1),
+    color-stop(68%, #dddede),
+    color-stop(73%, #d4d6d6),
+    color-stop(81%, #c2c3c3),
+    color-stop(84%, #c0c2c2),
+    color-stop(88%, #c5c7c7),
+    color-stop(100%, #cacbcb)
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    #d5d8d9 0%,
+    #d5d8d9 12%,
+    #bec0c0 35%,
+    #babcbc 42%,
+    #b8bbbb 53%,
+    #c5c6c6 57%,
+    #dcdddd 62%,
+    #e1e1e1 65%,
+    #dddede 68%,
+    #d4d6d6 73%,
+    #c2c3c3 81%,
+    #c0c2c2 84%,
+    #c5c7c7 88%,
+    #cacbcb 100%
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    #d5d8d9 0%,
+    #d5d8d9 12%,
+    #bec0c0 35%,
+    #babcbc 42%,
+    #b8bbbb 53%,
+    #c5c6c6 57%,
+    #dcdddd 62%,
+    #e1e1e1 65%,
+    #dddede 68%,
+    #d4d6d6 73%,
+    #c2c3c3 81%,
+    #c0c2c2 84%,
+    #c5c7c7 88%,
+    #cacbcb 100%
+  );
+  background-image: -o-linear-gradient(
+    top,
+    #d5d8d9 0%,
+    #d5d8d9 12%,
+    #bec0c0 35%,
+    #babcbc 42%,
+    #b8bbbb 53%,
+    #c5c6c6 57%,
+    #dcdddd 62%,
+    #e1e1e1 65%,
+    #dddede 68%,
+    #d4d6d6 73%,
+    #c2c3c3 81%,
+    #c0c2c2 84%,
+    #c5c7c7 88%,
+    #cacbcb 100%
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    #d5d8d9 0%,
+    #d5d8d9 12%,
+    #bec0c0 35%,
+    #babcbc 42%,
+    #b8bbbb 53%,
+    #c5c6c6 57%,
+    #dcdddd 62%,
+    #e1e1e1 65%,
+    #dddede 68%,
+    #d4d6d6 73%,
+    #c2c3c3 81%,
+    #c0c2c2 84%,
+    #c5c7c7 88%,
+    #cacbcb 100%
+  );
+  background-image: linear-gradient(
+    top,
+    #d5d8d9 0%,
+    #d5d8d9 12%,
+    #bec0c0 35%,
+    #babcbc 42%,
+    #b8bbbb 53%,
+    #c5c6c6 57%,
+    #dcdddd 62%,
+    #e1e1e1 65%,
+    #dddede 68%,
+    #d4d6d6 73%,
+    #c2c3c3 81%,
+    #c0c2c2 84%,
+    #c5c7c7 88%,
+    #cacbcb 100%
+  );
   background-size: cover;
 }
 /* line 21, ../styles/style.sass */
@@ -409,11 +544,17 @@ header {
   font-family: "Exo", sans-serif;
 }
 /* line 67, ../styles/style.sass */
-#global-nav .global-nav-list .global-nav-list-item .global-nav-list-item-link:first-child {
+#global-nav
+  .global-nav-list
+  .global-nav-list-item
+  .global-nav-list-item-link:first-child {
   padding-left: 0;
 }
 /* line 69, ../styles/style.sass */
-#global-nav .global-nav-list .global-nav-list-item .global-nav-list-item-link.-active {
+#global-nav
+  .global-nav-list
+  .global-nav-list-item
+  .global-nav-list-item-link.-active {
   color: white;
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
 }
@@ -425,11 +566,11 @@ header {
   height: 100%;
 }
 /* line 84, ../styles/style.sass */
-.global-panel-list[data-position='#bing'] {
+.global-panel-list[data-position="#bing"] {
   left: 0;
 }
 /* line 88, ../styles/style.sass */
-.global-panel-list[data-position='#bing'] #bing .tile-list {
+.global-panel-list[data-position="#bing"] #bing .tile-list {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -437,11 +578,11 @@ header {
   top: 0;
 }
 /* line 84, ../styles/style.sass */
-.global-panel-list[data-position='#home'] {
+.global-panel-list[data-position="#home"] {
   left: -1100px;
 }
 /* line 88, ../styles/style.sass */
-.global-panel-list[data-position='#home'] #home .tile-list {
+.global-panel-list[data-position="#home"] #home .tile-list {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -449,11 +590,11 @@ header {
   top: 0;
 }
 /* line 84, ../styles/style.sass */
-.global-panel-list[data-position='#social'] {
+.global-panel-list[data-position="#social"] {
   left: -2200px;
 }
 /* line 88, ../styles/style.sass */
-.global-panel-list[data-position='#social'] #social .tile-list {
+.global-panel-list[data-position="#social"] #social .tile-list {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -461,11 +602,11 @@ header {
   top: 0;
 }
 /* line 84, ../styles/style.sass */
-.global-panel-list[data-position='#games'] {
+.global-panel-list[data-position="#games"] {
   left: -3300px;
 }
 /* line 88, ../styles/style.sass */
-.global-panel-list[data-position='#games'] #games .tile-list {
+.global-panel-list[data-position="#games"] #games .tile-list {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -473,11 +614,11 @@ header {
   top: 0;
 }
 /* line 84, ../styles/style.sass */
-.global-panel-list[data-position='#tv-movies'] {
+.global-panel-list[data-position="#tv-movies"] {
   left: -4400px;
 }
 /* line 88, ../styles/style.sass */
-.global-panel-list[data-position='#tv-movies'] #tv-movies .tile-list {
+.global-panel-list[data-position="#tv-movies"] #tv-movies .tile-list {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -485,11 +626,11 @@ header {
   top: 0;
 }
 /* line 84, ../styles/style.sass */
-.global-panel-list[data-position='#music'] {
+.global-panel-list[data-position="#music"] {
   left: -5500px;
 }
 /* line 88, ../styles/style.sass */
-.global-panel-list[data-position='#music'] #music .tile-list {
+.global-panel-list[data-position="#music"] #music .tile-list {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -497,11 +638,11 @@ header {
   top: 0;
 }
 /* line 84, ../styles/style.sass */
-.global-panel-list[data-position='#apps'] {
+.global-panel-list[data-position="#apps"] {
   left: -6600px;
 }
 /* line 88, ../styles/style.sass */
-.global-panel-list[data-position='#apps'] #apps .tile-list {
+.global-panel-list[data-position="#apps"] #apps .tile-list {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -509,11 +650,11 @@ header {
   top: 0;
 }
 /* line 84, ../styles/style.sass */
-.global-panel-list[data-position='#settings'] {
+.global-panel-list[data-position="#settings"] {
   left: -7700px;
 }
 /* line 88, ../styles/style.sass */
-.global-panel-list[data-position='#settings'] #settings .tile-list {
+.global-panel-list[data-position="#settings"] #settings .tile-list {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -618,5 +759,5 @@ header {
 
 section {
   transform-origin: center top;
-  -webkit-transform: scale(.7);
+  -webkit-transform: scale(0.7);
 }
