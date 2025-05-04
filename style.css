@@ -726,9 +726,18 @@ header {
 }
 /* line 126, ../styles/style.sass */
 .tile-list .tile-item {
-  background: #75bb3e;
+  background: #3d8c30;
   width: 25%;
   height: 33.3%;
+  display: inline-block;
+  float: left;
+  border: 3px solid white;
+}
+/* line what, ../styles/style.sass */
+.tile-list .tile-item-two {
+  background: #3d8c30;
+  width: 50%;
+  height: 66.6%;
   display: inline-block;
   float: left;
   border: 3px solid white;
