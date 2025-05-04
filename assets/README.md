@@ -1,1 +1,1 @@
-This folder contains Icons & Images.
+This folder contains Icons, Images and more.
